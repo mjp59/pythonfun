@@ -1,7 +1,8 @@
 def main():
  add_two(3, 5)
  subtract_two(2, 1)
- multiply_two(5, 5)
+ bat = multiply_two(5, 5)
+ print('This is the output of multiply_two: {}'. format(bat))
 
 def add_two(v1, v2):
  *** do something
